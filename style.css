@@ -1,0 +1,45 @@
+body{
+  background:green;
+}
+.head{
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+h3{
+  font-family: 'Manuale', serif;
+}
+.space{
+  margin-top: 70px;
+  height:300px;;
+  width: 700px;
+  font: solid;
+  border: 3px #000 solid;
+  border-radius: 5px;
+}
+.cc{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 28px;
+font-weight:bold;
+
+}
+
+.footer {
+  width:450px;
+  text-align:center;
+  display:block;
+  margin:15px auto 30px auto;
+  font-size:0.8em;
+  color:#fff;
+
+}
+
+.vcenter {
+       display: inline-block;
+       vertical-align: middle;
+       float: none;
+}
