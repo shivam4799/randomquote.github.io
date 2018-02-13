@@ -27,7 +27,6 @@ function randomQuote(){
 }
 
 function changeText(){
-
     var value=val[randomQuote()];
 
     var a=document.getElementById('author');
