@@ -7,30 +7,21 @@
 
 <html lang="en">
 <head>
-    <title>Random Quote Machine</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114306431-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-114306431-1');
-</script>
-
-  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/animate.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script type="text/javascript" src="JS/main.js"></script>
+  <title>Random Quote Machine</title>
 </head>
 <body id="body">
 <h1 class="head">Random Quote Machine</h1>
 
 <div class="container-fluid">
     <div class=" text-center">
-      <h3>It's Random Quote Machine. it's genrate random quote.</h3>
+      <h3 class=" animated lightSpeedIn" style="font-family: monospace; font-weight:bolder;">It generates random quotes.</h3>
       <div class="cc">
 
-        <div class=" well space">
+        <div class=" well space animated zoomIn" id="randomQuote">
          <p id="quote">Press The New Quote</p>
 
          <div class="quote-author">
@@ -41,7 +32,7 @@
       </div>
 </div>
      <div class="text-center">
-       <button class = "btn btn-primary"  onclick="changeText(), BgColor()">
+       <button class = "btn btn-primary animated bounceIn"  onclick="changeText(), BgColor()">
          <h4>New Quote</h4>
        </button>
   </div>
